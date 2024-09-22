@@ -8,7 +8,7 @@ class Program
     {
         //For Parts 1 & 2:
 
-        Console.WriteLine9("What is the magic number?" );
+        Console.WriteLine("What is the magic number?" );
         int magicNumber = int.Parse(Console.ReadLine());
 
         int guess = int.Parse(Console.ReadLine());
