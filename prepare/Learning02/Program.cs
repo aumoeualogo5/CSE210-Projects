@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 
 class Program
 {
@@ -16,6 +17,14 @@ class Program
         job2._company = "Miles Sand and Gravel";
         job2._startYear = 2021;
         job2._endYear = 2025;
+
+        Resume myResume = new Resume();
+        myResume._name = "Sam Logo";
+
+        myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
+
+        myResume.Display();
 
     }
 }
